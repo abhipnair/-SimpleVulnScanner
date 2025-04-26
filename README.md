@@ -33,9 +33,9 @@ Built with ❤️ by abhipnair.
 ### Install dependencies
       pip install -r requirements.txt
 
-requirements.txt
-    requests
-    beautifulsoup4
+**requirements.txt: 
+    requests,
+    beautifulsoup4.**
 
 ## 🎯 Usage
 
