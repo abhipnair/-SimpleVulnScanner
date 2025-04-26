@@ -24,22 +24,22 @@ Built with ❤️ by abhipnair.
 
 ## 🚀 Installation
 
-# Clone this repository
-  git clone https://github.com/abhipnair/SimpleVulnScanner.git
+### Clone this repository
+      git clone https://github.com/abhipnair/SimpleVulnScanner.git
 
-# Navigate into the project directory
-  cd SimpleVulnScanner/CLI_Version
+### Navigate into the project directory
+      cd SimpleVulnScanner/CLI_Version
 
-# Install dependencies
-  pip install -r requirements.txt
+### Install dependencies
+      pip install -r requirements.txt
 
 requirements.txt
-  requests
-  beautifulsoup4
+    requests
+    beautifulsoup4
 
 ## 🎯 Usage
 
-python3 vulnscanner.py -u <TARGET_URL> -f <FIELD_NAME> -t <TYPE>
+    python3 vulnscanner.py -u <TARGET_URL> -f <FIELD_NAME> -t <TYPE>
 
 Arguments:
 
@@ -51,25 +51,25 @@ Arguments:
 
 Examples:
 
-# Scan for SQL Injection vulnerabilities
-python3 vulnscanner.py -u "http://testphp.vulnweb.com/listproducts.php" -f cat -t sql
+### Scan for SQL Injection vulnerabilities
+    python3 vulnscanner.py -u "http://testphp.vulnweb.com/listproducts.php" -f cat -t sql
 
-# Scan for XSS vulnerabilities
-python3 vulnscanner.py -u "http://example.com/search" -f search -t xss
+### Scan for XSS vulnerabilities
+    python3 vulnscanner.py -u "http://example.com/search" -f search -t xss
 
-# Scan for both SQLi and XSS
-python3 vulnscanner.py -u "http://example.com/login" -f username -t both
+### Scan for both SQLi and XSS
+    python3 vulnscanner.py -u "http://example.com/login" -f username -t both
 
 
 📂 Project Structure
 
-SimpleVulnScanner/
-├── CLI_Version/
-│   ├── vulnscanner.py
-│   ├── sql_payloads.txt
-│   ├── xss_payloads.txt
-│   └── requirements.txt
-└── README.md
+    SimpleVulnScanner/
+    ├── CLI_Version/
+    │   ├── vulnscanner.py
+    │   ├── sql_payloads.txt
+    │   ├── xss_payloads.txt
+    │   └── requirements.txt
+    └── README.md
 
 ## ⚠️ Disclaimer
 
